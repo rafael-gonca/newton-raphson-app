@@ -6,7 +6,7 @@ Aplicativo desenvolvido em Python para visualizar e simular o Método de Newton-
 
 Este projeto foi desenvolvido como parte da disciplina de Cálculo I da graduação em Sistemas de Informação.
 
-O objetivo foi criar uma aplicação interativa para demonstrar o funcionamento do método de Newton-Raphson na aproximação de raízes de funções, permitindo acompanhar cada iteração por meio de gráficos e simulações.
+O objetivo foi criar uma aplicação interativa para demonstrar o funcionamento do método de Newton-Raphson na aproximação de raízes de funções, permitindo acompanhar cada iteração por meio de gráficos.
 
 ---
 
