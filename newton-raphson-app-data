@@ -1,0 +1,21 @@
+{
+    "pastas": {
+        "Exemplos": [
+            {
+                "nome": "2° grau (6, 2, 1.9 e 2.1)",
+                "expressao": "x**2 - 4*x - 2",
+                "nota": ""
+            },
+            {
+                "nome": "Desafio (6, 0.2, 0.4, 3.6)",
+                "expressao": "x**3 - 6*x**2 + 3*x + 10",
+                "nota": "a) Quantas iterações o algoritmo precisou para encontrar a raiz exata em cada caso?\nb) Para qual das três raízes ele convergiu e por que?\nc) Aconteceu algo diferente com o valor da segunda iteração em comparação à primeira?\nSe sim, explique o que ocorreu."
+            },
+            {
+                "nome": "3° grau (0)",
+                "expressao": "x**3 - 2*x + 2",
+                "nota": "Chute 0"
+            }
+        ]
+    }
+}
