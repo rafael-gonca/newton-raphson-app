@@ -9,17 +9,22 @@ import sympy as sp
 
 # FUNÇÕES DE LEITURA E GRAVAÇÃO DE DADOS
 
-DATA_FILE = "calculo_app_data.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+DATA_FILE = os.path.join(BASE_DIR, "calculo_app_data.json")
 
 def carregar_dados():
     if not os.path.exists(DATA_FILE):
         return {"pastas": {"Exemplos": [{"nome": "Quadrática", "expressao": "x**2 - 2", "nota": "Apresentação: Raiz é aprox 1.4142"}]}}
     try:
-        with open(DATA_FILE, "r", encoding="utf-8") as f: return json.load(f)
-    except: return {"pastas": {}}
+        with open(DATA_FILE, "r", encoding="utf-8") as f: 
+            return json.load(f)
+    except: 
+        return {"pastas": {}}
 
 def salvar_dados(dados):
-    with open(DATA_FILE, "w", encoding="utf-8") as f: json.dump(dados, f, indent=4, ensure_ascii=False)
+    with open(DATA_FILE, "w", encoding="utf-8") as f: 
+        json.dump(dados, f, indent=4, ensure_ascii=False)
 
 # FUNÇÕES MATEMÁTICAS
 
