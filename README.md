@@ -70,7 +70,7 @@ python newton-raphson-app.py
 4. Navegue pelas iterações utilizando os botões Avançar e Retroceder.
 5. Observe a aproximação da raiz diretamente no gráfico.
 
-## banco de Dados
+## Banco de Dados
 
 O sistema utiliza o arquivo newton-raphson-app-data.json como banco de dados interno das funções cadastradas, onde contém funções previamente estabelecidas pelo grupo como exemplo e como desafio da apostila. Lembre-se de manter o arquivo JSON e a aplicação newton-raphson-app.py na mesma pasta.
 
