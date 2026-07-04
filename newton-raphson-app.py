@@ -11,7 +11,7 @@ import sympy as sp
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-DATA_FILE = os.path.join(BASE_DIR, "calculo_app_data.json")
+DATA_FILE = os.path.join(BASE_DIR, "newton-raphson-app-data.json")
 
 def carregar_dados():
     if not os.path.exists(DATA_FILE):
